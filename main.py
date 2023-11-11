@@ -11,9 +11,9 @@ from texts import HELP_TEXT, ABOUT_TEXT
 # Follow on GitHub @BotCreator99
 
 # Update key and token 
-bot_token = os.environ.get("TOKEN", "6564513574:AAGDqUaEmeu0m4DjLDetNc4nooVTWYT7Fzo")
-api_hash = os.environ.get("HASH", "a1a06a18eb9153e9dbd447cfd5da2457")
-api_id = os.environ.get("ID", "20389440")
+bot_token = os.environ.get("TOKEN", "6332654190:AAEk6CfjCC9utaU6NvJ-G8m_4XoYXemYP-Q")
+api_hash = os.environ.get("HASH", "9f8082811c4e168f298e4574da790383")
+api_id = os.environ.get("ID", "24690581")
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
 
@@ -70,10 +70,10 @@ def send_start(client: pyrogram.client.Client,
                message: pyrogram.types.messages_and_media.message.Message):
   app.send_message(
     message.chat.id,
-    f"__👋 Hi **{message.from_user.mention}**, I am Link bypasser bot, just send me any links and i will you get you results.\n👉 More command use :- /help /about\n This bot power by @VJ_Movie_Search_Bot",
+    f"__👋 Hi **{message.from_user.mention}**, I am Link bypasser bot, just send me any links and i will you get you results.\n👉 More command use :- /help /about\n This bot power by @xayoonara",
     reply_markup=InlineKeyboardMarkup([[
       InlineKeyboardButton(
-        "❤ Update Chanel", url="https://t.me/VJ_Bots")
+        "❤ Update Chanel", url="https://t.me/MYFLIIX_2")
     ]]),
     reply_to_message_id=message.id)
 
