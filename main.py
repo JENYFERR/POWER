@@ -2,9 +2,9 @@ import pyrogram
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import PyBypass
+import bypasser
 import os
-from PyBypass import ddllist
+from bypasser import ddllist
 import requests
 import threading
 from texts import HELP_TEXT, ABOUT_TEXT
